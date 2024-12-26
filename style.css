@@ -143,7 +143,7 @@ form{
     font-size: 1.2rem;
     font-weight: 350;
     margin: 1rem 0;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 .popular-content ul{
     padding-left: 1rem;
@@ -162,11 +162,113 @@ form{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 2rem;
 }
 .popular-image img{
     width: 100%;
 
 }
+
+
+
+
+
+
+/* Destination */
+
+
+
+
+
+
+.destination{
+    text-align: center;
+    margin: 3rem 0;
+    padding: 3rem 10rem;
+  
+
+}
+.destination  h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #131318;
+    margin-bottom: 1rem ;
+}
+.destination p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #747475;
+    margin-bottom: 2rem;
+}
+
+.image-colamn1 ,.image-colamn2 , .image-colamn3{
+    display: flex;
+   padding: 1rem;
+   justify-content: center;
+
+}
+
+.destination .image-colamn1 .imgh1{
+width: 50%;
+margin: 1rem;  
+}
+
+
+.destination .image-colamn1 .imgh1 img{
+    width: 100%;
+}
+
+.image-colamn2 img, .image-colamn3 img{
+ width: 100%;
+}
+.image-colamn2 .image-box3{
+    width: 30%;
+}
+
+.image-colamn2 .image-box4{
+    width: 40%;
+}
+
+.image-colamn2 .image-box5{
+    width: 23%;
+   
+}
+.image-colamn3 .image-box6{
+    width: 40%;
+   
+}
+.image-colamn3 .image-box7{
+    width: 55%;
+   
+}
+
+
+.imgh1,.second-img{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+.imgh1 img , .second-img img {
+    display: block;
+    
+}
+.image1 , .image2{
+    width: 50%;
+
+}
+.imgh1 h2, .second-img h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-family: Arial, sans-serif;
+}
+
+
 
 /* =========================================================================================================== */
 /* responsive 600px */
@@ -238,6 +340,55 @@ form{
     font-size: 1rem;
     
 }
+
+
+.destination{
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+
+}
+.destination  h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.destination p{
+    font-size: 1rem;
+
+}
+.image-colamn1 ,.image-colamn2 , .image-colamn3{
+    display: block;
+   flex-direction: column;
+   padding: 0rem;
+
+}
+.destination .image-colamn1 .imgh1 {
+    width: 90%;
+    margin: 0.5rem;  
+}
+.image-colamn2 .image-box3 {
+    width: 90%;
+    margin: 0.5rem;
+}
+.image-colamn2 .image-box4 {
+    width: 90%;
+    margin: 0.5rem;
+}
+.image-colamn2 .image-box5 {
+    width: 90%;
+    margin: 0.5rem;
+}
+.image-colamn3 .image-box6 {
+    width: 90%;
+    margin: 0.5rem;
+}
+.image-colamn3 .image-box7 {
+    width: 90%;
+    margin: 0.5rem;
+}
+.imgh1 h2, .second-img h2{
+    font-size: 1.5rem;
+}
+
     
 }
 @media screen and (min-width:600px) and (max-width: 992px) {
@@ -248,6 +399,16 @@ form{
     nav .menu-icon img {
         display: block;
     }
+    header{
+        padding: 2rem 0.5rem;
+       
+     }
+    
+.banner{
+    margin: 2rem 1rem;
+    padding: 2rem 2rem;
+
+}
 
 
     form {
@@ -263,7 +424,7 @@ form{
     .popular {
         display: flex;
         flex-direction: column;
-        padding: 3rem 1rem;
+        padding: 3rem 2.5rem;
     }
 
     .popular-content {
@@ -274,6 +435,10 @@ form{
     .popular-content h1 {
         font-size: 2rem;
         margin-bottom: 1rem;
+    }
+    .popular-image img{
+        width: 100%;
+    
     }
 
     .one {
@@ -287,17 +452,14 @@ form{
         color: #747475;
         background-color: #f5f5f5; /* Add background for better visibility */
     }
-
-
-
-
-
-
-
-
-
-
-
+    .destination{
+        padding: 3rem 0rem;
+    
+    }
+    
+    .imgh1 h2, .second-img h2{
+        font-size: 1.6rem;
+    }
 }
 
 @media screen  and  (min-width:992px) and (max-width:1200px) {
@@ -332,8 +494,11 @@ form{
        
     }
    .popular{
-    padding: 3rem 1rem;
+    padding: 3rem 0.2rem 3rem 2rem  ;
 
+   }
+   .column{
+    width: 50%;
    }
 .popular-content{
     margin-bottom: 2rem;
@@ -373,5 +538,20 @@ header{
 .popular-content ul li{
     font-size: 1.2rem;
     
-}  
+} 
+
+.destination{
+    padding: 3rem 5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
 }
