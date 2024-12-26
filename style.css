@@ -10,7 +10,7 @@ font-family: "Work Sans", serif;
 }
 
 header{
-   padding: 3rem 0px;
+   padding: 3rem 2.5rem;
 }
 nav{
     display: flex;
@@ -96,7 +96,7 @@ nav{
     margin-top: 3.5rem;
     justify-content: center;
     padding: 1rem;
-    background-color: #ffffff52;
+    background-color: #dfd7d752;
     border-radius: 10px;
 }
 form{
@@ -109,8 +109,8 @@ form{
     padding: 5px 18px;
     border: none;
     border-radius: 5px;
-    margin-left: 2rem;
-    color: #919194;
+    color: #747475;
+    margin: 1rem;
    
 }
 
@@ -179,9 +179,14 @@ form{
     nav .menu-icon  img{
         display: block;
     }
+    header{
+        padding: 1rem 2rem;
+     }
+
 
     .banner{
-        margin: 3rem 1rem;
+        margin: 3rem 0.5rem;
+        padding:5rem 5px;
     }
     .banner h1{
         font-size: 2rem;
@@ -193,6 +198,126 @@ form{
     form{
         display: flex;
         flex-direction: column;
+        margin-top: 0.5rem;
+    }
+   .options{
+    margin-top: 1rem;
+   }
+   
+    .one{
+        width: 260px;
+        height: 50px;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 1rem;
+        color: #919194;
+       
+       
+    }
+   .popular{
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 3rem 1rem;
+
+   }
+.popular-content{
+    width: 100%;
+    margin-bottom: 2rem;
+   
+}
+.popular-content h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.popular-content p{
+    font-size: 1rem;
+
+}
+.popular-content ul li{
+    font-size: 1rem;
+    
+}
+    
+}
+@media screen and (min-width:600px) and (max-width: 992px) {
+    nav .menu ul {
+        display: none;
+    }
+
+    nav .menu-icon img {
+        display: block;
+    }
+
+    .banner{
+        margin: 3rem 0rem;
+        padding:5rem 0px;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .options {
+        padding: 1rem;
+    }
+
+    .popular {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1rem;
+        padding: 3rem 1rem;
+    }
+
+    .popular-content {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .popular-content h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .one {
+       
+        width: 360px;
+        height: 45px;
+        padding: 5px 18px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 2rem;
+        color: #747475;
+        background-color: #f5f5f5; /* Add background for better visibility */
+    }
+}
+
+@media screen  and  (min-width:992px) and (max-width:1200px) {
+    
+    .banner{
+        margin: 3rem 0rem;
+        padding:5rem 0.8rem;
+    }
+    .banner h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .banner p{
+        font-size: 1rem;
+    }
+    form{
+        display: flex;
         margin-top: 1rem;
     }
     .options{
@@ -210,7 +335,7 @@ form{
        
     }
    .popular{
-    flex-direction: column;
+   
     margin: 0 1rem;
     padding: 3rem 1rem;
 
@@ -224,5 +349,18 @@ form{
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+.one{
+    width: 140px;
+    height: 45px;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2rem;
+    color: #747475;
+   
+}
+header{
+    padding: 3rem 2rem;
+ }
     
 }
