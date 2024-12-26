@@ -268,6 +268,84 @@ margin: 1rem;
     font-family: Arial, sans-serif;
 }
 
+/* choose us section */
+
+.choose-us{
+    padding: 3rem 15rem;
+    margin: 3rem ;
+   
+
+}
+
+.choose-us h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #131318;
+}
+.choose-us .p1{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #5A5A5D;
+}
+
+
+.tow-cart{
+    display: flex;
+
+}
+.tow-cart img{
+    margin-top: 1rem;
+
+
+}
+.tow-cart h2, .cart3 h2{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #131318;
+
+
+}
+.tow-cart p ,.cart3 p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #5A5A5D;
+    line-height: 1.5;
+
+
+}
+
+.cart1{
+    background-color: #FFFBF7;
+    border: #dfa385 1px solid;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+}
+.cart2{
+    background-color: #F4FDFF;
+    border: #90d3e2 1px solid;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+}
+.cart3{
+    background-color: #fcf2f2;
+    border: #eec9c9 1px solid;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    max-width:620px;
+  margin: 2rem auto;
+   
+}
+
+
 
 
 /* =========================================================================================================== */
@@ -388,6 +466,28 @@ margin: 1rem;
 .imgh1 h2, .second-img h2{
     font-size: 1.5rem;
 }
+.choose-us{
+    padding: 3rem 0.8rem;
+    margin: 3rem ;
+   
+
+}
+.choose-us h1{
+    font-size: 1.8rem;
+
+}
+.choose-us .p1{
+    font-size: 1rem;
+
+}
+
+.tow-cart{
+    flex-direction: column;
+}
+.cart1 , .cart2 , .cart3{
+    margin: 1rem 0.2rem;
+    
+}
 
     
 }
@@ -459,6 +559,13 @@ margin: 1rem;
     
     .imgh1 h2, .second-img h2{
         font-size: 1.6rem;
+    }
+
+    .choose-us{
+        padding: 3rem 1rem;
+        margin: 3rem ;
+       
+    
     }
 }
 
@@ -545,7 +652,12 @@ header{
 
 }
 
+.choose-us{
+    padding: 3rem 5rem;
+    margin: 3rem ;
+   
 
+}
 
 
 
