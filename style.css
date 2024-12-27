@@ -113,6 +113,9 @@ form{
     margin: 1rem;
    
 }
+input{
+    outline: none;
+}
 
 .one[type="text"]{
   outline: none;
@@ -473,12 +476,195 @@ padding: 0.5rem  0;
 .discount-2 .dis-cart{
 margin-right: 0;
 }
+.discounts-section .btn{
+    display:flex;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.SimplePerfect{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10rem ;
+    align-items: center;
 
+}
+.Simple-image{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    max-height: 400px;
+   
+}
+.Simple-image img{
+    width: 100%;
+}
+.Simple-image h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.Simple-content{
+   max-width: 40%;
+    padding:1.5rem 3rem;
+    margin: 0;
+}
+.Simple-content h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 
+}
+.Simple-content ul{
+    margin-left: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
 
+}
+.Simple-content ul li{
+    margin: 1.5rem 0;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.Simple-content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #5A5A5D;
+    margin: 1rem  0;
+}
+.Simple-content button{
+    padding: 1rem 2rem;
+    background-color: #FF5400;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+.Newsletter{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 10rem;
+    align-items: center;
+}
+.massage{
+    margin: 1rem;
+    border: 1px solid hsl(20, 62%, 68%);
+    border-radius: 10px;
+    padding: 3rem;
 
+}
+.massage h2{
+    font-size: 1.5rem ;
+    margin-bottom: 1rem ;
 
+}
+.massage p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #5A5A5D;
 
+}
+.massage hr{
+    margin: 1rem 1rem;
+    border: 0.5px solid #F3F3F3;
+}
+.massage input{
+    display: block;
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    background-color: #F3F3F3;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.massage button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    background-color: #FF5400;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+}
+.off-image{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    max-width: 50%;
+}
+.off-image img{
+    width: 100%;
+}
+.off{
+    position: absolute;
+    right: 5px;
+    bottom: 4rem;
+    background-color: #FF5400;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    transform: rotate(-30deg);
+
+}
+footer{
+    background-color: #F3F3F3;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+    margin: 1rem  auto;
+    align-items: center;
+
+}
+.foot-logo img{
+    margin: 0;
+}
+.foot-logo h1{
+    margin: 0 0.5rem;
+}
+footer p{
+    color: #747475;
+}
+.icons{
+    display: inline-flex;
+    margin: 3rem auto;
+
+}
+.icons img{
+    margin: 0 1rem;
+    cursor: pointer;
+   
+}
+
+footer hr{
+   max-width: 800px;
+   border: 0.4px solid #aeaeb3cc;
+   margin: 1rem auto;
+}
+footer .p1{
+    margin-top:5rem ;
+}
 
 
 
@@ -651,11 +837,46 @@ margin-right: 0;
     flex-wrap: wrap;
 }
 
-    
+.SimplePerfect{
+    flex-direction: column;
+    padding:0 1rem;
+    margin: 0;
+}
+.Simple-content {
+    max-width: 100%;
+    padding: 1rem;
+}
+.Simple-content h1{
+    font-size: 1.5rem;
+
+}
+.Simple-image h2{
+    font-size: 1rem;
+}
+.Newsletter{
+    padding: 1rem 2rem;
+    flex-direction: column;
+
+}
+.off-image{
+    max-width: 100%;
+}
+.massage{
+    width:100%;
+    padding: 1.5rem 2rem;
+} 
+.off-image .off h1{
+    font-size: 1rem;
+} 
+.off{
+    bottom: 2.5rem;
+    right: 1rem;
+}
 }
 /* ==================================================================================================== */
 
 @media screen and (min-width:600px) and (max-width: 992px) {
+
     nav .menu ul {
         display: none;
     }
@@ -670,8 +891,15 @@ margin-right: 0;
     
 .banner{
     margin: 2rem 1rem;
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
 
+}
+.banner h1{
+    margin-top: 3rem;
+    font-size: 2rem ;
+}
+.banner p{
+    font-size: 1rem;
 }
 
 
@@ -699,6 +927,7 @@ margin-right: 0;
     .popular-content h1 {
         font-size: 2rem;
         margin-bottom: 1rem;
+        margin-top: 2rem;
     }
     .popular-image img{
         width: 100%;
@@ -741,10 +970,41 @@ margin-right: 0;
     .discounts-section .p1{
         font-size: 1.5rem;
     }
-     
+     .SimplePerfect{
+    flex-direction: column;
+    padding:0 2rem;
+    margin: 0;
+}
+.Simple-content {
+    max-width: 100%;
+    padding: 1rem;
+}
+.Simple-image h2{
+    font-size: 2rem;
+}
+.Simple-image{
+ 
+    max-height: 100%;
+   
+}
+.Newsletter{
+    padding: 1rem 2rem;
+    flex-direction: column;
+
+}
+.off-image{
+    max-width: 100%;
+}
+.massage{
+    width:100%;
+    padding: 5rem 3rem;
+}
+
+
 }
 
 @media screen  and  (min-width:992px) and (max-width:1200px) {
+  
     
     .banner{
         margin: 3rem 0rem;
@@ -850,11 +1110,42 @@ header{
 .discounts-section .p1{
     font-size: 1.5rem;
 }
- 
+.discounts-section h1{
+    font-size: 2.5rem;
+
+}
+.discounts-section .p1{
+    font-size: 1.8rem;
+} 
+
+.SimplePerfect{
+   
+    padding:0 1rem;
+    margin: 0;
+    align-items: center;
+}
+
+.Newsletter{
+    padding: 1rem 2rem;
+}
+.massage{
+    padding: 1rem;
+}
 
 
+}
 
-
-
-
+@media screen and (min-width:1200px) and (max-width:1350px) {
+    .SimplePerfect{
+        padding:0 2rem;
+        margin: 0;
+        align-items: center;
+    } 
+    .Newsletter{
+        padding: 2rem 5rem;
+    }
+    .massage{
+        padding: 2rem;
+    }
+    
 }
