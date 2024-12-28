@@ -113,7 +113,7 @@ form{
     margin: 1rem;
    
 }
-input{
+option{
     outline: none;
 }
 
@@ -665,7 +665,9 @@ footer hr{
 footer .p1{
     margin-top:5rem ;
 }
-
+.foot-logo .part2{
+    color: #FF5400;
+}
 
 
 /* =========================================================================================================== */
